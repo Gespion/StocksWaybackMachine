@@ -4,15 +4,6 @@
 #    you'll get how much money you'd have today
 #################################################
 
-# -- TO DO -- 
-# Query the stock list based on user input (test exact date first then approximative to avoid weekends)
-# Validate user inputs before querying (stock, dates, amount) --> Done
-# Build a chart
-# empty list: https://sandbox.iexapis.com/stable/stock/appl/chart/date/20190220?chartByDay=true&token=Tsk_b353e1b5a6dc48d18b7d316ece6c8472
-# empty result: today's value https://sandbox.iexapis.com/stable/stock/twtr/ohlc?token=Tsk_b353e1b5a6dc48d18b7d316ece6c8472
-# empty result when date on weekend. i.e: GOOG - 20150315/14 - 1000 --> list index out of range ()
-# Calculate loss
-
 # Profit (P) = ( (SP * NS) - SC ) - ( (BP * NS) + BC )
 #NS is the number of shares,
 #SP is the selling price per share,
